@@ -12,7 +12,7 @@ import javax.swing.table.TableColumnModel;
  * Tugas: UTILITY - Menangani semua logika yang berhubungan dengan JTable.
  */
 public class TableUtil {
-
+    // TableUtil helper untuk sinkron JTable dan model
     // Helper untuk format mata uang (Rp)
     private static NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID"));
     
