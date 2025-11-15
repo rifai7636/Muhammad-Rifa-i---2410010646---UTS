@@ -11,6 +11,8 @@ import java.util.TreeSet;
  * File: BarangService.java
  * Tugas: CONTROLLER/SERVICE - Mengelola semua logika bisnis (CRUD, Impor/Ekspor).
  */
+//Menggunakan method terpisah dan bersih
+
 public class BarangService {
 
     // =====================================================================
