@@ -141,6 +141,7 @@ public class MainFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Inventori Barang");
 
+        panelKategori.setBackground(new java.awt.Color(102, 153, 255));
         panelKategori.setBorder(javax.swing.BorderFactory.createTitledBorder("Kategori Barang"));
 
         jListKategori.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
@@ -168,6 +169,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        panelTabel.setBackground(new java.awt.Color(102, 153, 255));
         panelTabel.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         jTableBarang.setModel(new javax.swing.table.DefaultTableModel(
@@ -194,7 +196,6 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
         jTableBarang.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jTableBarang.getTableHeader().setReorderingAllowed(false);
         jTableBarang.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jTableBarangMouseClicked(evt);
@@ -256,7 +257,7 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(btnEdit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnHapus, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnExport, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnImport, javax.swing.GroupLayout.DEFAULT_SIZE, 112, Short.MAX_VALUE))
+                    .addComponent(btnImport, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         panelTabelLayout.setVerticalGroup(
@@ -279,7 +280,9 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        panelDetail.setBackground(new java.awt.Color(102, 153, 255));
         panelDetail.setBorder(javax.swing.BorderFactory.createTitledBorder("Detail Barang"));
+        panelDetail.setForeground(new java.awt.Color(102, 102, 255));
 
         jLabel5.setText("Kode Barang:");
 
@@ -358,12 +361,12 @@ public class MainFrame extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
+                .addContainerGap(30, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(panelKategori, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(panelTabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(panelDetail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18))
         );
