@@ -423,6 +423,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * EVENT: Tombol "Tambah Barang" diklik.
      */
+    
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
         try {
             String kode = txtKode.getText().trim();
@@ -430,7 +431,7 @@ public class MainFrame extends javax.swing.JFrame {
             int stok = Integer.parseInt(txtStok.getText().trim());
             double harga = Double.parseDouble(txtHarga.getText().trim());
             String kategori = jListKategori.getSelectedValue();
-
+            //Menampilkan daftar kategori menggunakan JList
             if (kode.isEmpty() || nama.isEmpty()) {
                 JOptionPane.showMessageDialog(this, "Kode dan Nama tidak boleh kosong!", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
