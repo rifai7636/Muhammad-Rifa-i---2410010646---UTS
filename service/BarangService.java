@@ -13,11 +13,11 @@ import java.util.TreeSet;
  */
 public class BarangService {
 
-    // ======================================================================
+    // =====================================================================
     // BAGIAN INI HILANG DARI KODE ANDA (1)
     // Variabel utama untuk menyimpan data
     private List<Barang> daftarBarang;
-    // ======================================================================
+    // =====================================================================
 
     /**
      * Constructor
