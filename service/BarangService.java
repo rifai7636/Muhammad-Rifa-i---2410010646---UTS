@@ -95,7 +95,7 @@ public class BarangService {
 
     // --- Logika Impor/Ekspor (Mendelegasikan ke FileUtil) ---
     // (Ini adalah bagian yang sudah Anda miliki)
-
+    //Menambahkan fitur ekspor data barang ke file JSON
     public boolean exportDataJSON(File file) {
         // Sekarang 'this.daftarBarang' sudah ada dan tidak akan error
         return FileUtil.exportKeJSON(this.daftarBarang, file);
