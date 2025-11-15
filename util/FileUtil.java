@@ -99,7 +99,7 @@ public class FileUtil {
         return daftarBarang;
     }
     
-    // --- KODE BARU UNTUK EKSPOR PDF ---
+    // ---- KODE BARU UNTUK EKSPOR PDF ----
     
     /**
      * Mengekspor daftar barang ke file PDF.
