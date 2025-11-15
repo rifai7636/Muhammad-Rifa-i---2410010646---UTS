@@ -374,7 +374,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     
     // --- EVENT HANDLERS (Logika Tombol dan List) ---
-    
+    // Implementasi event handling pada tombol-tombol action
     /**
      * EVENT: Dipicu saat KATEGORI di JList kiri diklik.
      */
