@@ -5,6 +5,7 @@ package UTSSMT5.model;
  * Tugas: MODEL - Menyimpan data untuk satu barang (POJO).
  * Konsep OOP: Encapsulation.
  */
+//Class Barang 
 public class Barang {
 
     private String kode;
