@@ -28,6 +28,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Constructor
      */
+    //Implementasi GUI menggunakan JFrame, JPanel, JList, JTable, JButton
     public MainFrame() {
         // INI PENTING: initComponents() HARUS DIPANGGIL PERTAMA
         initComponents(); 
