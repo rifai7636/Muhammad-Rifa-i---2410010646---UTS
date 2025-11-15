@@ -498,7 +498,7 @@ public class MainFrame extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Pilih barang di tabel yang ingin dihapus!", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
-        
+        //Menampilkan data barang dalam JTable
         String kode = txtKode.getText();
         String nama = txtNama.getText();
         int konfirmasi = JOptionPane.showConfirmDialog(this, 
