@@ -389,6 +389,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * EVENT: Dipicu saat BARANG di JTable diklik.
      */
+    //Fitur CRUD (Tambah, Edit, Hapus Barang)
     private void jTableBarangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableBarangMouseClicked
         int selectedRow = jTableBarang.getSelectedRow();
         if (selectedRow == -1) return; 
