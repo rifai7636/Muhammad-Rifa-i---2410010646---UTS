@@ -114,6 +114,7 @@ public class BarangService {
     public boolean importData(File file) {
         List<Barang> dataBaru = FileUtil.imporDariJSON(file);
         if (!dataBaru.isEmpty() || file.length() == 0) { 
+            //Validasi data sebelum ekspor/impor
             // Sekarang 'this.daftarBarang' sudah ada dan tidak akan error
             this.daftarBarang.clear();
             this.daftarBarang.addAll(dataBaru);
