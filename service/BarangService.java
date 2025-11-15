@@ -110,7 +110,7 @@ public class BarangService {
         // Sekarang 'this.daftarBarang' sudah ada dan tidak akan error
         return FileUtil.exportKeXLS(this.daftarBarang, file);
     }
-
+    //Menambahkan fitur impor data JSON ke JTable
     public boolean importData(File file) {
         List<Barang> dataBaru = FileUtil.imporDariJSON(file);
         if (!dataBaru.isEmpty() || file.length() == 0) { 
